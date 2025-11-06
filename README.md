@@ -40,8 +40,9 @@ aws sts get-caller-identity --profile profilename
 3. Run the validator
 ```bash
 python cloudtrail_validator.py --profile profilename
+```
 
-✅ Outputs generated:
+### Outputs generated:
 
 This is the ouput in your CLI:
 
@@ -162,6 +163,8 @@ print(f"Report saved: {filename}")
 - Why consistent naming conventions matter for audit readiness
 - How compliance automation transforms manual reviews into code-driven evidence
 
+---
+
 ### Summary of Technical Skills Demonstrated
 
 Through these snippets, I practiced key GRC engineering skills:
@@ -171,7 +174,10 @@ Through these snippets, I practiced key GRC engineering skills:
 - Generating audit-ready JSON and CSV evidence
 - Identifying misconfigurations in AWS logging infrastructure
 
+---
+
 ## Evidence Sample
+
 Example output:
 
 ```yaml
@@ -193,6 +199,8 @@ HIGH
 These findings map directly to:
 - SOC 2 CC7.2
 - NIST 800-53 AU-2, AU-3, AU-6, AU-12
+
+---
 
 ## What This Project Demonstrates
 

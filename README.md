@@ -29,24 +29,33 @@ By completing this project, I learned how to:
 
 1. Activate virtual environment
 ```bash
+python -m venv venv
 source venv/Scripts/activate   # Windows Git Bash
 ```
 2. Log in to AWS using SSO
 ```bash
-aws sso login --profile yourprofilename
+aws configure sso
+aws sts get-caller-identity --profile profilename
 ```
 3. Run the validator
 ```bash
-python cloudtrail_validator.py --profile angie --output-format both
-```
+python cloudtrail_validator.py --profile profilename
 
 ✅ Outputs generated:
 
+This is the ouput in your CLI:
+
+![report](./assets/cli-output.png)
+
+These two reports are saved in the same folder where the script is run:
+
 - ```cloudtrail_compliance_report_20251106_094843.json```
+
+![report](./assets/cloudtrail_json.png)
 
 - ```cloudtrail_compliance_summary_20251106_094843.csv```
 
-These are saved in the same folder where the script is run.
+![report](./assets/cloudtrail_csv.png)
 
 ---
 

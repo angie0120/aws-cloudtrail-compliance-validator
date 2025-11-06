@@ -31,6 +31,8 @@ By completing this project, I learned how to:
 ```bash
 python -m venv venv
 source venv/Scripts/activate   # Windows Git Bash
+
+pip install boto3
 ```
 2. Log in to AWS using SSO
 ```bash

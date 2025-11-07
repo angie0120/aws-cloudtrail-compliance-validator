@@ -222,3 +222,10 @@ This is the type of compliance engineering work used in real organizations prepa
 ✔️ This lab reinforces how GRC engineers use automation, not manual review, to validate cloud controls at scale.
 
 ---
+
+## Resources
+
+- [CloudTrail Validator Full Code](https://www.patreon.com/posts/137803768?collection=1606822)
+- [GRC Engineering](https://grcengineeringbook.com/)
+
+---

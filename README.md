@@ -225,7 +225,7 @@ This is the type of compliance engineering work used in real organizations prepa
 
 ## Resources
 
-- [CloudTrail Validator Full Code](https://www.patreon.com/posts/137803768?collection=1606822)
+- [CloudTrail Validator Full Code](https://www.patreon.com/posts/138464331?collection=1606822)
 - [GRC Engineering](https://grcengineeringbook.com/)
 
 ---
